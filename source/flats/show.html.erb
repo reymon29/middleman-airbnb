@@ -1,0 +1,53 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-10">
+      <div class="show-case">
+
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "show-owner" %>
+      <form>
+        <div class="form-group row">
+          <label for="name" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" readonly="readonly" id="name" value="<%= flat.name %>">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="description" class="col-sm-2 col-form-label">Description</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control"  readonly="readonly" id="description" value="<%= flat.description %>">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="city" class="col-sm-2 col-form-label">City</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" readonly="readonly" id="city" value="<%= flat.city_name %>">
+          </div>
+        </div>
+         <div class="form-group row">
+          <label for="status" class="col-sm-2 col-form-label">Comment</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" readonly="readonly" id="city" value="<%= flat.status %>">
+          </div>
+        </div>
+      </form>
+
+      <div class="show-display" >
+       <%= image_tag "#{flat.image}", class: "show-image" %>
+       <%= image_tag "#{flat.image1}", class: "show-image" %>
+        <%= image_tag "#{flat.image2}", class: "show-image" %>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+
+
+
+

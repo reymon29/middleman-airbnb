@@ -1,0 +1,23 @@
+
+.show-owner {
+height: 150px;
+border-radius: 50%;
+border-shadow: 1px 2px rgba(0,0,0,0.5);
+}
+
+.show-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.show-image{
+  border: 25%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  margin: 10px 0;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+

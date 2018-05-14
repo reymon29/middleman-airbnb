@@ -1,0 +1,34 @@
+alexandrakira100:
+  name: "Alexandra Doll"
+  description: "Home away from home"
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  breakfest: false
+  status: "Hot Spot"
+  rating: 5
+  image: "tokyo/tokyo.jpeg"
+  image1: "tokyo/tokyo1.jpeg"
+  image2: "tokyo/tokyo2.jpeg"
+Ammeliediemont:
+  name: "Ammelie home"
+  description: "Small flat in London"
+  city_name: "London, UK"
+  city_slug: "london"
+  breakfest: true
+  status: "Popping"
+  rating: 3.5
+  image: "london/london.jpeg"
+  image1: "london/london1.jpeg"
+  image2: "london/london2.jpeg"
+Edmond-Dantes:
+  name: "Edmond Akpan"
+  description: "Skyscrapper residence"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  breakfest: true
+  status: "Ohhhh yaa!"
+  rating: 4
+  image: "paris/paris.jpeg"
+  image1: "paris/paris1.jpeg"
+  image2: "paris/paris2.jpeg"
+
